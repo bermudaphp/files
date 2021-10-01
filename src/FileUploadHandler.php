@@ -18,7 +18,7 @@ use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\UploadedFileInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 
-final class FileUploadHandler implements RequestHandlerInterface, FileProcessor
+final class Uploader implements RequestHandlerInterface, FileProcessor
 {
     private Location $location;
 
